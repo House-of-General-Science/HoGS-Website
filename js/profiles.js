@@ -7,28 +7,11 @@ const memberData = {
 	],
 	"members": [
 		{
-			"name": "Damian Suarez",
-			"eboardRole": "President",
-			"major": "Mechanical Engineering",
-			"minor": "N/A",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/team/damian_suarez.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/team/damian_suarez_fun.jpg",
-					"size": "fun"
-				}
-			],
-			"bio": "I'm Damian Suarez, 1st year Mechanical engineering technology major AND president of HoGS? I'm from Miami, Florida (Yes its hot, Yes we have mosquitos, No I don't know Mr. Worldwide) I joined HoGS in 2021, and briefly served as project manager. If they're is any random electrical parts or wires on floor Probably from me. When I'm not in class I like to hanging and chilling around floor, or blowing myself up, its a 50 50. Ill leave you with some advice \"You can't do two illegal things at once\"."
-		},
-		{
 			"name": "Victoria Greever",
-			"eboardRole": "Vice President",
-			"major": "Biotechnology + Bioinformatics",
-			"enrollment": "First Year",
+			"eboardRole": "President",
+			"major": "Bioinformatics",
+			"minor": "N/A",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/team/victoria_greever.jpg",
@@ -39,7 +22,24 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "Hi! I'm Victoria Greever, a first-year biotechnology and molecular bioscience major from Weaverville, North Carolina. Before being elected to Vice-President, I was the PR Head and did random project things. When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to  new members: \"If Damian tells you its safe, grab the fire extinguisher and start recording for legal purposes.\""
+			"bio": "Hi! I'm Victoria Greever, a second-year biotechnology and molecular bioscience major from Weaverville, North Carolina. Before being elected to Vice-President -> President, I was the PR Head and did random project things. When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to new members: \"If Damian tells you its safe, grab the fire extinguisher and start recording for legal purposes.\"."
+		},
+		{
+			"name": "",
+			"eboardRole": "Vice President",
+			"major": "Mechanical Engineer",
+			"enrollment": "Second Year",
+			"photos": [
+				{
+					"URL": "images/team/joseph_gysbers.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/team/joseph_gysbers_fun.jpg",
+					"size": "fun"
+				}
+			],
+			"bio": ""
 		},
 		{
 			"name": "Will Ebmeyer",
@@ -57,7 +57,7 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "Hello fellow humans!  I'm Will, a second-year physics major.  I'm also the 2020-2021 Vice President for HoGS and former Project Head.  I might be of few words, but don't let that scare you off!  I try to be helpful when possible, so if you need anything, let me know!\nLive long and prosper!"
+			"bio": "Hello fellow humans!  I'm Will, a fourth-year physics major.  I'm also the 2020-2021 Vice President for HoGS and former Project Head.  I might be of few words, but don't let that scare you off!  I try to be helpful when possible, so if you need anything, let me know!\nLive long and prosper!"
 		},
 		{
 			"name": "Savannah Kidd",
