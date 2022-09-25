@@ -25,7 +25,7 @@ const memberData = {
 			"bio": "Hi! I'm Victoria Greever, a second-year biotechnology and molecular bioscience major from Weaverville, North Carolina. Before being elected to Vice-President -> President, I was the PR Head and did random project things. When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to new members: \"If Damian tells you its safe, grab the fire extinguisher and start recording for legal purposes.\"."
 		},
 		{
-			"name": "",
+			"name": "Joseph Gysbers",
 			"eboardRole": "Vice President",
 			"major": "Mechanical Engineer",
 			"enrollment": "Second Year",
@@ -39,7 +39,7 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": ""
+			"bio": "[Insert Text Here]"
 		},
 		{
 			"name": "Will Ebmeyer",
