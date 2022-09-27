@@ -171,7 +171,7 @@ const memberData = {
 		},
 		{   "name": "Sydney Tannenbaum",
 			"major": "Bioinformatics",
-			"enrollment": "Third Year",
+			"enrollment": "Fifth Year",
 			"photos": [
 				{
 					"URL": "images/members/sydney_tannenbaum.jpg",
