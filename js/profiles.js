@@ -5,303 +5,352 @@ const memberData = {
 		"Treasurer",
 		"Secretary"
 	],
+	
 	"members": [
-		{
-			"name": "Victoria Greever",
+		{   "name": "Victoria Greever",
 			"eboardRole": "President",
-			"major": "Bioinformatics & Molecular Biology",
-			"minor": "N/A",
+			"major": "Biotechnology + Bioinformatics",
+			"minor": "Museum Studies",
 			"enrollment": "Second Year",
 			"photos": [
 				{
-					"URL": "images/team/victoria_greever.jpg",
+					"URL": "images/members/victoria_greever.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/team/victoria_greever_fun.jpg",
+					"URL": "images/members/victoria_greever_fun.jpg",
 					"size": "fun"
 				}
 			],
-			"bio": "Hi! I'm Victoria Greever, a second-year biotechnology and molecular bioscience major from Weaverville, North Carolina. Before being elected to Vice-President -> President, I was the PR Head and did random project things. When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to new members: \"If Damian tells you its safe, grab the fire extinguisher and start recording for legal purposes.\"."
+			"bio": "Hi! I'm Victoria Greever, a second-year biotechnology and molecular bioscience major and bioinformatics major from Weaverville, North Carolina. Before being elected to President, I was the Vice-President, PR Head and did random project things (if you need a safety proposal, I'm your person!). When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to new members: \"Don't be afraid to get involved! There are so many opportunities and you can make so many amazing friends.\" I'm always here if you need me, so reach out! :)"
 		},
-		{
-			"name": "Joseph Gysbers",
+		{   "name": "Joseph Gysbers",
 			"eboardRole": "Vice President",
-			"major": "Mechanical Engineer",
+			"major": "Mechanical Engineering",
 			"enrollment": "Second Year",
 			"photos": [
 				{
-					"URL": "images/team/joseph_gysbers.jpg",
+					"URL": "images/members/joseph_gysbers.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/team/joseph_gysbers_fun.jpg",
+					"URL": "images/members/joseph_gysbers_fun.jpg",
 					"size": "fun"
 				}
 			],
 			"bio": "[Insert Text Here]"
 		},
-		{
-			"name": "Will Ebmeyer",
+		{   "name": "Will Ebmeyer",
 			"eboardRole": "Treasurer",
 			"major": "Physics",
-			"minor": "Game Design",
-			"enrollment": "Second Year",
+			"minor": "Game Design & Math",
+			"enrollment": "Fourth Year",
 			"photos": [
 				{
-					"URL": "images/team/will_ebmeyer.jpg",
+					"URL": "images/members/will_ebmeyer.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/team/will_ebmeyer_fun.jpg",
+					"URL": "images/members/will_ebmeyer_fun.jpg",
 					"size": "fun"
 				}
 			],
-			"bio": "Hello fellow humans!  I'm Will, a fourth-year physics major.  I'm also the 2020-2021 Vice President for HoGS and former Project Head.  I might be of few words, but don't let that scare you off!  I try to be helpful when possible, so if you need anything, let me know!\nLive long and prosper!"
+			"bio": "Hello fellow humans!  I'm Will, a fourth-year physics major.  I'm also the 2020-2021 VP and 2022 Treasurer for HoGS and former Project Head.  I might be of few words, but don't let that scare you off!  I try to be helpful when possible, so if you need anything, let me know!\nLive long and prosper!"
 		},
-		{
-			"name": "Savannah Kidd",
+		{   "name": "Savannah Kidd",
 			"eboardRole": "Secretary",
 			"major": "Biochemistry",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
-					"URL": "images/team/savannah_kidd.jpg",
+					"URL": "images/members/savannah_kidd.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/team/savannah_kidd_fun.jpg",
+					"URL": "images/members/savannah_kidd_fun.jpg",
 					"size": "fun"
 				}
 			],
 			"bio": "Hi! My name is Savannah and I'm from Fairfield, Ohio, which is about 30 minutes from Cincinnati. I enjoy reading and will listen to just about any music, so recommendations are always appreciated. I also like a variety of TV shows and movies and love talking about them! I have 3 dogs back home and I miss them the most out of everyone, but I came so far from home for a reason! I love RIT and want to go into research one day and from what I've heard this is a great place to start!"
 		},
-		{
-			"name": "Ryan Lemole",
+
+
+
+		{   "name": "Dwayne the Rock",
+			"major": "Door Holding",
+			"enrollment": "Beyond Time",
+			"photos": [
+				{
+					"URL": "images/memes/dwayne_the_rock.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/memes/dwayne_the_rock_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hey there! I'm Dwayne, the Rock, and I'm always happy to hold the T-Lounge door open for you!\nhttps://www.youtube.com/shorts/eDTnhSUekKw"
+		},
+		{   "name": "Big Red",
+			"major": "Electrodynamics",
+			"enrollment": "Time is relative",
+			"photos": [
+				{
+					"URL": "images/memes/big_red.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/memes/big_red_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hello! I'm Big Red and I like long cables like myself to bring around angry pixies! I live in H.E.L.L, don't don't visit me I don't like people."
+		},
+		{   "name": "Virilicus",
+			"major": "Archeologist",
+			"enrollment": "Ancient",
+			"photos": [
+				{
+					"URL": "images/memes/virilicus.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/memes/virilicus_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Gimme your kneecaps."
+		},
+
+
+
+		{   "name": "Kevin Wu",
+			"major": "Computer Science",
+			"enrollment": "Second Year",
+			"photos": [
+				{
+					"URL": "images/members/kevin_wu.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/kevin_wu_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm from NYC. I love editing videos and coding. I'm responsible for some of the HoGS YouTube videos and server management for some of our games, mainly datapacks for one of our Minecraft servers. I love music composed by Hiroyuki Sawano, if anyone knows who that is."
+		},
+		{   "name": "Ryan Lemole",
 			"major": "Software Engineering",
+			"enrollment": "Fifth Year",
+			"photos": [
+				{
+					"URL": "images/members/ryan_lemole.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/ryan_lemole_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm Ryan Lemole, 5th year software engineering student AND was president of HoGS! (Isn't that exciting?) I'm from Peabody, MA. I've been with HoGS since 2018, was PR Head, and CS Head so I've definitely been around. When I'm not in class or with the house I like longboarding around campus, listening to music WAY too loudly (my favorite artists are Aries and MGK) and messing around with lighting/sound/set design for theater productions. If you're thinking about joining, DO IT! You won't regret it!"
+		},
+		{   "name": "Jack Buell",
+			"major": "Mechanical Engineering",
 			"enrollment": "Fourth Year",
 			"photos": [
 				{
-					"URL": "images/portfolio/ryan_lemole.jpg",
+					"URL": "images/members/jack_buell.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/portfolio/modals/m_ryan_lemole.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "I'm Ryan Lemole, 4th year software engineering student AND was president of HoGS! (Isn't that exciting?) I'm from Peabody, MA. I've been with HoGS since 2018, was PR Head, and CS Head so I've definitely been around. When I'm not in class or with the house I like longboarding around campus, listening to music WAY too loudly (my favorite artists are Aries and MGK) and messing around with lighting/sound/set design for theater productions. If you're thinking about joining, DO IT! You won't regret it!"
-		},
-		{
-			"name": "Sydney Tannenbaum",
-			"major": "Bioinformatics",
-			"enrollment": "Third Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/sydney_tannenbaum.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_sydney_tannenbaum.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Howdy! My name's Sydney, and I am a Bioinformatics major at RIT. I intend on graduating with a minor in Archaeological Sciences. In my free time, I enjoy playing Dungeons & Dragons. Feel free to message me about D&D!"
-		},
-		{
-			"name": "Jack Buell",
-			"major": "Mechanical Engineering",
-			"enrollment": "Third Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/jack_buell.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_jack_buell.jpg",
+					"URL": "images/members/jack_buell_fun.jpg",
 					"size": "full"
 				}
 			],
 			"bio": "Hey y'all, not much to say, I play games, and do too much homework. I'm always free to talk... if i'm actually free!"
 		},
-		{
-			"name": "Skyler Fox",
-			"major": "Electrical Engineering Technology",
+		{   "name": "Sydney Tannenbaum",
+			"major": "Bioinformatics",
 			"enrollment": "Third Year",
 			"photos": [
 				{
-					"URL": "images/portfolio/skyler_fox.jpg",
+					"URL": "images/members/sydney_tannenbaum.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/portfolio/modals/m_skyler_fox.jpg",
+					"URL": "images/members/sydney_tannenbaum_fun.jpg",
 					"size": "full"
 				}
 			],
-			"bio": "Hello! We're Skyler, Wynn, and Storm! Yes its just one profile, but there's definitely still three of us. One body, 3 individuals. (Try not to take the biblical suggestion too far, we're not claiming anything like that xD) I'm Skyler, I'm the one you will probably talk to the most. Wynn's the fun one, you'll probably hear from her most in the discord. Storm only shows up once in a while, but they're alright too.\nWe all hail from the Southern Tier of NY, and I'm one of the former tech heads. We're happy to help with most tech problems, and vocal supporters of Free and Open Source Software. I also play Tekken (buff Lars btw), and love talking fighting games or computer things in general. When [HUMAN MALWARE] isn't a thing, we're normally active on floor, and can often be found in either the discord or the social lounge. Feel free to say hi!"
+			"bio": "Howdy! My name's Sydney, and I am a Bioinformatics major at RIT. I intend on graduating with a minor in Archaeological Sciences. In my free time, I enjoy playing Dungeons & Dragons. Feel free to message me about D&D!"
 		},
-		{
-			"name": "Andrew Wrightson",
-			"major": "Computer Science",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/andrew_wrightson.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_andrew_wrightson.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hello, I am Andrew. I always harbored a love for technology and anything related to computers. That being said I can talk about any topic. I have an unending to learn, which has lead me through a multitude of different topics and fields. I can talk all day about anything and everything. If there's anything that interests you that you would like to talk about, that you think I have not heard of before, I want to learn more about it. "
-		},
-		{
-			"name": "Sinclaire Ogof",
-			"major": "Public Policy",
-			"minor": "Environmental Studies",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/sinclaire_ogof.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_sinclaire_ogof.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hi everyone! My name is Sinclaire and I'm from the Middle-of-Nowhere Pennsylvania! I love science which is why I believe it needs to be more present in policy making (hence thy major). I am excited to be your historical head for this year and can't wait to see what RIT has to offer me!"
-		},
-		{
-			"name": "Riley Mott Williams",
-			"major": "environmental science",
-			"enrollment": "Second Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/riley_mott_williams.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_riley_mott_williams.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "I’m just some nerdy guy who loves spreadsheets, the environment, and programming! Reach out and talk to me about those things, my two cats, or whatever else’s on your mind. I dabble in videogames but not much oustide of Minecraft. Remember to stay safe, wear a mask, and vote.\n🏳️‍⚧️ 🐾 😷 🗳️ ❤️"
-		},
-		{
-			"name": "Alejandra Paige",
-			"major": "Biology",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/alejandra_paige.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_alejandra_paige.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Greetings! Congratulations for reading this far on the page! Are you exhausted yet? No? Just wait till you hit odysseys' bio below... Anyhoo! I am a Freshman to campus with third year status at RIT. I love talking, listening to music, and doing random research. I know everyone has said just how amazing HoGS is so I'm gonna change it up a bit. HoGS is a terrible place if you don't want to meet anyone, have no fun ever, and hate science. If that doesn't sound like you, join us in our quest to take over th.... Sorry not supposed to disclose that just yet... Join HoGS!!"
-		},
-		{
-			"name": "Brad Hanel",
-			"major": "Game Design and Development",
-			"minor": "French and Music Technology",
-			"enrollment": "Fourth Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/brad_hanel.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_brad_hanel.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hi! :) I'm Brad! I'm really into French culture and baseball, I play video games and do art and music (poorly), and I'm the president of Fowl Play, a comedy troupe on campus. I've been an Orientation Supervisor and an RA, so I know way more than anyone ever should about RIT. I used to be the Vice President of HoGS many moons ago.\n\nI hold the world record* for places lived at RIT, as I've lived in Ellingson, on HoGS, in Perkins Green, at the Province, at UC, and in Sol as an RA.\n\n*probably not a record"
-		},
-		{
-			"name": "Jackson O'Connor",
-			"major": "Computer Science",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/portfolio/jackson_o_connor.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/portfolio/modals/m_jackson_o_connor.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hi, I'm Jackson O'Connor, a Computer Science major from Lancaster, New York. I love video games, talking about video games, the Bills(Love Josh Allen!), and coding! As you might be able to tell by my picture, I am incredibly cool, sick, awesome, and an absolute bro."
-		},
-		{
-			"name": "Zachary Ross",
+		{   "name": "Zachary Ross",
 			"major": "Management Information Systems",
 			"minor": "Supply Chain Management",
-			"enrollment": "Second Year",
+			"enrollment": "Third Year",
 			"photos": [
 				{
-					"URL": "images/portfolio/zachary_ross.jpg",
+					"URL": "images/members/zachary_ross.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/portfolio/modals/m_zachary_ross.jpg",
+					"URL": "images/members/zachary_ross_fun.jpg",
 					"size": "full"
 				}
 			],
 			"bio": "Hello there! my name is Zachary Ross. I was born and raised in South Florida. I'm a  man of many interests, enjoying games, literature, music and much more. I particularly like works of science fiction that place an emphasis on lore and high concepts. The notion of exploring new histories, cultures and ideas appeals to me greatly."
 		},
-		{
-			"name": "Josh Lindsey",
-			"major": "Game Design & Development",
-			"enrollment": "First Year",
+		{   "name": "Damian Suarez",
+			"major": "Mechanical Engineering Technology",
+			"enrollment": "Second Year",
 			"photos": [
 				{
-					"URL": "images/portfolio/josh_lindsey.jpg",
+					"URL": "images/members/damian_suarez.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/portfolio/modals/m_josh_lindsey.jpg",
+					"URL": "images/members/damian_suarez_fun.jpg",
 					"size": "full"
 				}
 			],
-			"bio": "Artist, gamer, night owl, and a passionate hater of country music"
+			"bio": "I'm Damian Suarez, 1st year Mechanical engineering technology major AND president of HoGS? I'm from Miami, Florida (Yes its hot, Yes we have mosquitos, Yes I know Mr. Worldwide) I joined HoGS in 2021, and briefly served as project manager. If they're is any random electrical parts or wires on floor Probably from me. When I'm not in class I like to hanging and chilling around floor, or blowing myself up, its a 50 50. Ill leave you with some advice \"You can't do two illegal things at once\"."
 		},
-		{
-			"name": "Dwayne the Rock",
-			"major": "Door Holding",
+		{   "name": "Leah Robinson",
+			"major": "Biotechnology & Molecular Bioscience",
 			"enrollment": "First Year",
 			"photos": [
 				{
-					"URL": "images/portfolio/dwayne.jpg",
+					"URL": "images/members/leah_robinson.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/portfolio/modals/m_dwayne.jpg",
+					"URL": "images/members/leah_robinson_fun.jpg",
 					"size": "full"
 				}
 			],
-			"bio": "Hey there!  I'm Dwayne, the Rock, and I'm always happy to hold the Tech Lounge door open for you!"
+			"bio": "Hello! I am an Accelerated Scholar and Performing Arts Scholar from Massachusetts."
 		},
-		{
-			"name": "Big Red",
-			"major": "Electrodynamics",
+		{   "name": "Marah Lewis",
+			"major": "Physics",
 			"enrollment": "First Year",
 			"photos": [
 				{
-					"URL": "images/portfolio/big_red.jpg",
+					"URL": "images/members/marah_lewis.jpg",
 					"size": "thumbnail"
 				},
 				{
-					"URL": "images/portfolio/modals/m_big_red.jpg",
+					"URL": "images/members/marah_lewis_fun.jpg",
 					"size": "full"
 				}
 			],
-			"bio": "Hello!  I'm Big Red and I like long cables like myself to bring around angry pixies!"
+			"bio": "Hello, my name's Marah (she/they/he) and I'm from Silver Spring, MD. I love anime, field hockey, reading and writing. If I seem really quiet and stand offish, I'm not being mean, I just have crippling social anxiety."
+		},
+		{   "name": "Daniel Lekan-Salami",
+			"major": "Mechatronics Engineering Technology",
+			"enrollment": "First Year",
+			"photos": [
+				{
+					"URL": "images/members/daniel_lekan_salami.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/daniel_lekan_salami_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I am a person. I eat food. Everything else you will learn from me in person."
+		},
+		{   "name": "Anthony Patti",
+			"major": "Biochem",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/anthony_patti.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/anthony_patti_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm a first year biochem major from Long island New York."
+		},
+		{   "name": "Izzy Axford",
+			"major": "Biology",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/izzy_axford.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/izzy_axford_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Very good at procrastination."
+		},
+		{   "name": "Jacob Ziarniak",
+			"major": "Computing Exploration",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/jacob_ziarniak.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/jacob_ziarniak_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I am a freshman this year at RIT, and I am from a small town close to Buffalo, NY. As a student studying in the field of computing, I do naturally enjoy math, reasoning, and problem solving. However, when I'm not up in the late hours of the night doing coursework, you'll often find me playing chess, speed-cubing, or just playing games online with friends. I like to run and play soccer as well, although I'll play almost any sport just for the fun of it. I also have an interest in cars and motorsport, and I hope that my future career in computing might land me a job somewhere in the automotive field."
+		},
+		{   "name": "Katie Miller",
+			"major": "Chemistry",
+			"minor": "Dance",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/katie_miller.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/katie_miller_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "Hello! My name is Katie Miller and I'm a first year chemistry major from Eagan, Minnesota. I'm also cross-registered student from NTID! Outside of school, I love to dance (ballet and tap are my favorites), do Taekwondo, play the violin, and arrange/compose music."
+		},
+		{   "name": "Nicolas Sovare",
+			"major": "Physics, Game Design & Development ",
+			"minor": "Math",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/nicolas_sovare.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/nicolas_sovare_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm a second year physics major from central New York. I've got 3 younger brothers that, unfortunately, do not also want to be physics majors. I also have an unhealthy obsession with video games."
+		},
+		{   "name": "Robert Vazquez",
+			"major": "Civil Engineering Technology",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/robert_vazquez.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/robert_vazquez_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm a second year CVET student and I'm a third Dan."
 		}
 	]
 }

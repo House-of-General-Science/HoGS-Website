@@ -1,0 +1,15 @@
+{   "name": "",
+    "major": "",
+    "enrollment": "",
+    "photos": [
+        {
+            "URL": "images/members/.jpg",
+            "size": "thumbnail"
+        },
+        {
+            "URL": "images/members/.jpg",
+            "size": "full"
+        }
+    ],
+    "bio": ""
+},
