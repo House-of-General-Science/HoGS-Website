@@ -9,7 +9,7 @@ const memberData = {
 		{
 			"name": "Victoria Greever",
 			"eboardRole": "President",
-			"major": "Bioinformatics",
+			"major": "Bioinformatics & Molecular Biology",
 			"minor": "N/A",
 			"enrollment": "Second Year",
 			"photos": [
