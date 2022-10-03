@@ -261,7 +261,7 @@ const memberData = {
 			"bio": "I am a person. I eat food. Everything else you will learn from me in person."
 		},
 		{   "name": "Anthony Patti",
-			"major": "Biochem",
+			"major": "Biochemistry",
 			"enrollment": "",
 			"photos": [
 				{
@@ -351,6 +351,21 @@ const memberData = {
 				}
 			],
 			"bio": "I'm a second year CVET student and I'm a third Dan."
+		},
+		{   "name": "Andrew Saridakis",
+			"major": "Computational Engineering",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/andrew_saridakis.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/andrew_saridakis_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm from LI NY, Chinese-American student. I love swimming longboards and SCIENCE, with favoritism towards cooking science and biology."
 		}
 	]
 }
