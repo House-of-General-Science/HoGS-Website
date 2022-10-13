@@ -2291,6 +2291,8 @@ ul.exemenu li {
 	background: #12151B;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
 	overflow: hidden;
 	border-bottom: 1px solid #15191d;
 }
