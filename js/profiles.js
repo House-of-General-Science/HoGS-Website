@@ -261,7 +261,7 @@ const memberData = {
 			"bio": "I am a person. I eat food. Everything else you will learn from me in person."
 		},
 		{   "name": "Anthony Patti",
-			"major": "Biochem",
+			"major": "Biochemistry",
 			"enrollment": "",
 			"photos": [
 				{
@@ -351,6 +351,51 @@ const memberData = {
 				}
 			],
 			"bio": "I'm a second year CVET student and I'm a third Dan."
+		},
+		{   "name": "Andrew Saridakis",
+			"major": "Computational Engineering",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/andrew_saridakis.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/andrew_saridakis_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I'm from LI NY, Chinese-American student. I love swimming longboards and SCIENCE, with favoritism towards cooking science and biology."
+		},
+		{   "name": "Benny Wang",
+			"major": "Applied Statistics",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/benny_wang.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/benny_wang_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "A little about yourself. Benny's never gonna give up dadjoking you, and he's never gonna give up just brute forcing math problems. He's never gonna let you live down your most embarrassing moment, and he's never gonna run around campus playing Pokemon go. That's a lie, he'll desert you to go catch that gible. If it wasn't obvious, Benny loves his rickrolls. He plays valorant and pokemon go, and enjoys listening to Chinese music."
+		},
+		{   "name": "Ryan Armitage",
+			"major": "Applied Mathematics",
+			"enrollment": "",
+			"photos": [
+				{
+					"URL": "images/members/ryan_armitage.jpg",
+					"size": "thumbnail"
+				},
+				{
+					"URL": "images/members/ryan_armitage_fun.jpg",
+					"size": "full"
+				}
+			],
+			"bio": "I like warlocks, wheely chairs, and wooing ladies. I enjoy frolicking in various fields such as wheat, corn and soy. I live my life on the edge."
 		}
 	]
 }
