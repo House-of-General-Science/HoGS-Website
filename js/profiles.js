@@ -55,7 +55,7 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "Hello fellow humans!  I'm Will, a fourth-year physics major.  I'm also the 2020-2021 VP and 2022 Treasurer for HoGS and former Project Head.  I might be of few words, but don't let that scare you off!  I try to be helpful when possible, so if you need anything, let me know!\nLive long and prosper!"
+			"bio": "Hello fellow humans!  I'm Will, a fourth-year physics major.  I'm also the 2020-2022 VP, 2022 Treasurer for HoGS, and former Project Head.  I might be of few words, but don't let that scare you off!  I try to be helpful when possible, so if you need anything, let me know!\nLive long and prosper!"
 		},
 		{   "name": "Savannah Kidd",
 			"eboardRole": "Secretary",
