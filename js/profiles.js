@@ -38,7 +38,7 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "[Insert Text Here]"
+			"bio": "Hello! I'm Joe, a second year mechanical engineering major from Newfane, New York. Before being elected Vice-President I used to be Housing Head, and I always help out with projects for Rochester Maker Faire and Imagine RIT. I'm usually hanging out on floor whenever I'm not busy, so if you need anything just let me know or feel free to stop by!"
 		},
 		{   "name": "Will Ebmeyer",
 			"eboardRole": "Treasurer",
