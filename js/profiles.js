@@ -90,21 +90,6 @@ const memberData = {
 			],
 			"bio": "I'm from NYC. I love editing videos and coding. I'm responsible for some of the HoGS YouTube videos and server management for some of our games, mainly datapacks for one of our Minecraft servers. I love music composed by Hiroyuki Sawano, if anyone knows who that is."
 		},
-		/**{   "name": "Ryan Lemole",
-			"major": "Software Engineering",
-			"enrollment": "Fifth Year",
-			"photos": [
-				{
-					"URL": "images/members/ryan_lemole.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/ryan_lemole_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "I'm Ryan Lemole, 5th year software engineering student AND was president of HoGS! (Isn't that exciting?) I'm from Peabody, MA. I've been with HoGS since 2018, was PR Head, and CS Head so I've definitely been around. When I'm not in class or with the house I like longboarding around campus, listening to music WAY too loudly (my favorite artists are Aries and MGK) and messing around with lighting/sound/set design for theater productions. If you're thinking about joining, DO IT! You won't regret it!"
-		},*/
 		{   "name": "Jack Buell",
 			"major": "Mechanical Engineering",
 			"enrollment": "Fourth Year",
@@ -181,21 +166,6 @@ const memberData = {
 			],
 			"bio": "Hello! I am an Accelerated Scholar and Performing Arts Scholar from Massachusetts."
 		},
-		/**{   "name": "Marah Lewis",
-			"major": "Physics",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/members/marah_lewis.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/marah_lewis_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hello, my name's Marah (she/they/he) and I'm from Silver Spring, MD. I love anime, field hockey, reading and writing. If I seem really quiet and stand offish, I'm not being mean, I just have crippling social anxiety."
-		},*/
 		{   "name": "Daniel Lekan-Salami",
 			"major": "Mechatronics Engineering Technology",
 			"enrollment": "First Year",
@@ -211,36 +181,6 @@ const memberData = {
 			],
 			"bio": "I am a person. I eat food. Everything else you will learn from me in person."
 		},
-		/**{   "name": "Anthony Patti",
-			"major": "Biochemistry",
-			"enrollment": "First Year",
-			"photos": [
-				{
-					"URL": "images/members/anthony_patti.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/anthony_patti_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "I'm a first year biochem major from Long island New York."
-		},*/
-		/**{   "name": "Izzy Axford",
-			"major": "Biology",
-			"enrollment": "",
-			"photos": [
-				{
-					"URL": "images/members/izzy_axford.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/izzy_axford_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Very good at procrastination."
-		},*/
 		{   "name": "Jacob Ziarniak",
 			"major": "Computing Exploration",
 			"enrollment": "First Year",
@@ -288,21 +228,6 @@ const memberData = {
 			],
 			"bio": "I'm a second year physics major from central New York. I've got 3 younger brothers that, unfortunately, do not also want to be physics majors. I also have an unhealthy obsession with video games."
 		},
-		/**{   "name": "Robert Vazquez",
-			"major": "Civil Engineering Technology",
-			"enrollment": "Second Year",
-			"photos": [
-				{
-					"URL": "images/members/robert_vazquez.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/members/robert_vazquez_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "I'm a second year CVET student and I'm a third Dan."
-		},*/
 		{   "name": "Andrew Saridakis",
 			"major": "Computational Engineering",
 			"enrollment": "Second Year",
