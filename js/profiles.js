@@ -9,7 +9,7 @@ const memberData = {
 	"members": [
 		{   "name": "Victoria Greever",
 			"eboardRole": "President",
-			"major": "Biotechnology + Bioinformatics",
+			"major": "Biotechnology and Molecular Bioscience",
 			"minor": "Museum Studies",
 			"enrollment": "Second Year",
 			"photos": [
@@ -22,11 +22,12 @@ const memberData = {
 					"size": "fun"
 				}
 			],
-			"bio": "Hi! I'm Victoria Greever, a second-year biotechnology and molecular bioscience major and bioinformatics major from Weaverville, North Carolina. Before being elected to President, I was the Vice-President, PR Head and did random project things (if you need a safety proposal, I'm your person!). When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to new members: \"Don't be afraid to get involved! There are so many opportunities and you can make so many amazing friends.\" I'm always here if you need me, so reach out! :)"
+			"bio": "Hi! I'm Victoria, a second-year biotechnology and molecular bioscience major from Weaverville, North Carolina. Before being elected to President, I was the Vice-President for a minute, PR Head and did random project things (if you need a safety proposal, I'm your person!). When I'm not in class or working, you can usually find me hanging out on floor, drawing, or hiking when I can. Lastly, here is my biggest piece of advice to new members: \"Don't be afraid to get involved! There are so many opportunities and you can make so many amazing friends.\" I'm always here if you need me, so reach out! :)"
 		},
 		{   "name": "Joseph Gysbers",
 			"eboardRole": "Vice President",
 			"major": "Mechanical Engineering",
+            "minor": "Archaeology",
 			"enrollment": "Second Year",
 			"photos": [
 				{
@@ -74,56 +75,6 @@ const memberData = {
 			"bio": "Hi! My name is Savannah and I'm from Fairfield, Ohio, which is about 30 minutes from Cincinnati. I enjoy reading and will listen to just about any music, so recommendations are always appreciated. I also like a variety of TV shows and movies and love talking about them! I have 3 dogs back home and I miss them the most out of everyone, but I came so far from home for a reason! I love RIT and want to go into research one day and from what I've heard this is a great place to start!"
 		},
 
-
-
-		{   "name": "Dwayne the Rock",
-			"major": "Door Holding",
-			"enrollment": "Beyond Time",
-			"photos": [
-				{
-					"URL": "images/memes/dwayne_the_rock.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/memes/dwayne_the_rock_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hey there! I'm Dwayne, the Rock, and I'm always happy to hold the T-Lounge door open for you!\nhttps://www.youtube.com/shorts/eDTnhSUekKw"
-		},
-		{   "name": "Big Red",
-			"major": "Electrodynamics",
-			"enrollment": "Time is relative",
-			"photos": [
-				{
-					"URL": "images/memes/big_red.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/memes/big_red_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Hello! I'm Big Red and I like long cables like myself to bring around angry pixies! I live in H.E.L.L, don't don't visit me I don't like people."
-		},
-		{   "name": "Virilicus",
-			"major": "Archeologist",
-			"enrollment": "Ancient",
-			"photos": [
-				{
-					"URL": "images/memes/virilicus.jpg",
-					"size": "thumbnail"
-				},
-				{
-					"URL": "images/memes/virilicus_fun.jpg",
-					"size": "full"
-				}
-			],
-			"bio": "Gimme your kneecaps."
-		},
-
-
-
 		{   "name": "Kevin Wu",
 			"major": "Computer Science",
 			"enrollment": "Second Year",
@@ -139,7 +90,7 @@ const memberData = {
 			],
 			"bio": "I'm from NYC. I love editing videos and coding. I'm responsible for some of the HoGS YouTube videos and server management for some of our games, mainly datapacks for one of our Minecraft servers. I love music composed by Hiroyuki Sawano, if anyone knows who that is."
 		},
-		{   "name": "Ryan Lemole",
+		/**{   "name": "Ryan Lemole",
 			"major": "Software Engineering",
 			"enrollment": "Fifth Year",
 			"photos": [
@@ -153,7 +104,7 @@ const memberData = {
 				}
 			],
 			"bio": "I'm Ryan Lemole, 5th year software engineering student AND was president of HoGS! (Isn't that exciting?) I'm from Peabody, MA. I've been with HoGS since 2018, was PR Head, and CS Head so I've definitely been around. When I'm not in class or with the house I like longboarding around campus, listening to music WAY too loudly (my favorite artists are Aries and MGK) and messing around with lighting/sound/set design for theater productions. If you're thinking about joining, DO IT! You won't regret it!"
-		},
+		},*/
 		{   "name": "Jack Buell",
 			"major": "Mechanical Engineering",
 			"enrollment": "Fourth Year",
@@ -187,7 +138,7 @@ const memberData = {
 		{   "name": "Zachary Ross",
 			"major": "Management Information Systems",
 			"minor": "Supply Chain Management",
-			"enrollment": "Third Year",
+			"enrollment": "Fourth Year",
 			"photos": [
 				{
 					"URL": "images/members/zachary_ross.jpg",
@@ -213,7 +164,7 @@ const memberData = {
 					"size": "full"
 				}
 			],
-			"bio": "I'm Damian Suarez, 1st year Mechanical engineering technology major AND president of HoGS? I'm from Miami, Florida (Yes its hot, Yes we have mosquitos, Yes I know Mr. Worldwide) I joined HoGS in 2021, and briefly served as project manager. If they're is any random electrical parts or wires on floor Probably from me. When I'm not in class I like to hanging and chilling around floor, or blowing myself up, its a 50 50. Ill leave you with some advice \"You can't do two illegal things at once\"."
+			"bio": "I'm Damian Suarez, 2nd year Mechanical engineering technology major AND was president of HoGS? I'm from Miami, Florida (Yes its hot, Yes we have mosquitos, Yes I know Mr. Worldwide) I joined HoGS in 2021, and briefly served as project manager. If they're is any random electrical parts or wires on floor Probably from me. When I'm not in class I like to hanging and chilling around floor, or blowing myself up, its a 50 50. Ill leave you with some advice \"You can't do two illegal things at once\"."
 		},
 		{   "name": "Leah Robinson",
 			"major": "Biotechnology & Molecular Bioscience",
@@ -230,7 +181,7 @@ const memberData = {
 			],
 			"bio": "Hello! I am an Accelerated Scholar and Performing Arts Scholar from Massachusetts."
 		},
-		{   "name": "Marah Lewis",
+		/**{   "name": "Marah Lewis",
 			"major": "Physics",
 			"enrollment": "First Year",
 			"photos": [
@@ -244,7 +195,7 @@ const memberData = {
 				}
 			],
 			"bio": "Hello, my name's Marah (she/they/he) and I'm from Silver Spring, MD. I love anime, field hockey, reading and writing. If I seem really quiet and stand offish, I'm not being mean, I just have crippling social anxiety."
-		},
+		},*/
 		{   "name": "Daniel Lekan-Salami",
 			"major": "Mechatronics Engineering Technology",
 			"enrollment": "First Year",
@@ -260,9 +211,9 @@ const memberData = {
 			],
 			"bio": "I am a person. I eat food. Everything else you will learn from me in person."
 		},
-		{   "name": "Anthony Patti",
+		/**{   "name": "Anthony Patti",
 			"major": "Biochemistry",
-			"enrollment": "",
+			"enrollment": "First Year",
 			"photos": [
 				{
 					"URL": "images/members/anthony_patti.jpg",
@@ -274,8 +225,8 @@ const memberData = {
 				}
 			],
 			"bio": "I'm a first year biochem major from Long island New York."
-		},
-		{   "name": "Izzy Axford",
+		},*/
+		/**{   "name": "Izzy Axford",
 			"major": "Biology",
 			"enrollment": "",
 			"photos": [
@@ -289,10 +240,10 @@ const memberData = {
 				}
 			],
 			"bio": "Very good at procrastination."
-		},
+		},*/
 		{   "name": "Jacob Ziarniak",
 			"major": "Computing Exploration",
-			"enrollment": "",
+			"enrollment": "First Year",
 			"photos": [
 				{
 					"URL": "images/members/jacob_ziarniak.jpg",
@@ -308,7 +259,7 @@ const memberData = {
 		{   "name": "Katie Miller",
 			"major": "Chemistry",
 			"minor": "Dance",
-			"enrollment": "",
+			"enrollment": "First Year",
 			"photos": [
 				{
 					"URL": "images/members/katie_miller.jpg",
@@ -324,7 +275,7 @@ const memberData = {
 		{   "name": "Nicolas Sovare",
 			"major": "Physics, Game Design & Development ",
 			"minor": "Math",
-			"enrollment": "",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/nicolas_sovare.jpg",
@@ -337,9 +288,9 @@ const memberData = {
 			],
 			"bio": "I'm a second year physics major from central New York. I've got 3 younger brothers that, unfortunately, do not also want to be physics majors. I also have an unhealthy obsession with video games."
 		},
-		{   "name": "Robert Vazquez",
+		/**{   "name": "Robert Vazquez",
 			"major": "Civil Engineering Technology",
-			"enrollment": "",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/robert_vazquez.jpg",
@@ -351,10 +302,10 @@ const memberData = {
 				}
 			],
 			"bio": "I'm a second year CVET student and I'm a third Dan."
-		},
+		},*/
 		{   "name": "Andrew Saridakis",
 			"major": "Computational Engineering",
-			"enrollment": "",
+			"enrollment": "Second Year",
 			"photos": [
 				{
 					"URL": "images/members/andrew_saridakis.jpg",
@@ -369,7 +320,7 @@ const memberData = {
 		},
 		{   "name": "Benny Wang",
 			"major": "Applied Statistics",
-			"enrollment": "",
+			"enrollment": "First Year",
 			"photos": [
 				{
 					"URL": "images/members/benny_wang.jpg",
@@ -382,9 +333,9 @@ const memberData = {
 			],
 			"bio": "A little about yourself. Benny's never gonna give up dadjoking you, and he's never gonna give up just brute forcing math problems. He's never gonna let you live down your most embarrassing moment, and he's never gonna run around campus playing Pokemon go. That's a lie, he'll desert you to go catch that gible. If it wasn't obvious, Benny loves his rickrolls. He plays valorant and pokemon go, and enjoys listening to Chinese music."
 		},
-		{   "name": "Ryan Armitage",
+		/**{   "name": "Ryan Armitage",
 			"major": "Applied Mathematics",
-			"enrollment": "",
+			"enrollment": "First Year",
 			"photos": [
 				{
 					"URL": "images/members/ryan_armitage.jpg",
@@ -396,7 +347,57 @@ const memberData = {
 				}
 			],
 			"bio": "I like warlocks, wheely chairs, and wooing ladies. I enjoy frolicking in various fields such as wheat, corn and soy. I live my life on the edge."
-		}
+		},*/
+        {
+            "name": "Penny Jankowski",
+            "major": "Chemical Engineering",
+            "enrollement": "First Year",
+            "photos": [
+                {
+                    "URL": "images/members/penny_jankowski.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "URL": "images/members/penny_jankowski_fun.jpg",
+                    "size": "full"
+                }
+            ],
+            "bio": "My name is Penny Jankowski and I’m a first year chemical engineering major from Cleveland, OH. I’m currently the mural committee head for HoGS as well as a member of the project committee. Aside from my interests in math and science, I enjoy painting and love music. I will not hesitate to recommend you a song (or multiple songs, or an album, or an artist’s entire discography)."
+        },
+        {
+            "name": "Lucas Gordon",
+            "major": "Industrial Design",
+            "enrollement": "Third Year",
+            "photos": [
+                {
+                    "URL": "images/members/lucas_gordon.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "URL": "images/members/lucas_gordon_fun.jpg",
+                    "size": "full"
+                }
+            ],
+            "bio": "I have always been a maker. I've been an avid LEGO fan since the age of 4, and I always gravitated toward activities with creative outlets. I have also always been interested in science and technology and finding ways to use them to solve practical problems. After a bit of turbulence, I ended up in Industrial/Product Design and am now in my third year of the program, enjoying taking ideas from the conceptual stage all the way to production."
+        },
+        {
+            "name": "Liam Culhane",
+            "major": "Biochemistry",
+            "minor": "Pyschology",
+            "enrollement": "First Year",
+            "photos": [
+                {
+                    "URL": "images/members/liam_culhane.jpg",
+                    "size": "thumbnail"
+                },
+                {
+                    "URL": "images/members/liam_culhane_fun.jpg",
+                    "size": "full"
+                }
+            ],
+            "bio": "I’m Liam and I am a first year Biochemistry major. I enjoy playing instruments, swimming, the outdoors and working. I am from Victor New York and graduated from Victor Central School District."
+        }
+
 	]
 }
 
