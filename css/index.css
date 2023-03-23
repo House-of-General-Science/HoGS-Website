@@ -1328,6 +1328,35 @@ ul#nav li.current a:after {
 
 
 /**
+/* =gallery page years
+/* =================================================================== */
+#galleryyear {
+	background: #111417;
+	border-bottom: 1px solid #15191d;
+	padding-bottom: 30px;
+}
+
+#galleryyear .eventslist {
+
+}
+
+#galleryyear img {
+	/*border: darkred solid 15px;
+	border-radius: 20px;*/
+	max-height: 300px;
+}
+
+#galleryyear h3 {
+	font: 18px/24px "raleway-heavy", sans-serif;
+	color: #e20303;
+	text-transform: none;
+	letter-spacing: 0;
+	padding: 0;
+	margin-bottom: 6px;
+}
+
+
+/**
 /* =gallery
 /* =================================================================== */
 
