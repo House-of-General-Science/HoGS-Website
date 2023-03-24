@@ -36,7 +36,7 @@ const galleryData = {
 	],
 	"2018-2019": [],
 	"2017-2018": [ 
-		{"URL": "images/gallery/2017-2018/applepicking2017.jpg", "description": "Apple Picking"},
+		{"URL": "images/gallery/2017-2018/applepicking20171.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2017-2018/applepicking20172.jpg", "description": "Apple Picking 2"},
 		{"URL": "images/gallery/2017-2018/dodgeball1.png", "description": "Dodgeball 1"},
 		{"URL": "images/gallery/2017-2018/dodgeball2.JPG", "description": "Dodgeball 2"},
@@ -131,7 +131,12 @@ processGallery: {
 		gridItems[year] = galleryData[year].map(image =>
 			new Elmen("div").withClasses("bgrid", "folio-item").withChildren(
 				new Elmen("div").withClasses("item-wrap").withChildren(
-					new Elmen("img").withAttributes({src: image.URL, alt: image.description}).withListeners(imageFailListener)
+					new Elmen("img").withAttributes({src: image.URL, alt: image.description}).withListeners(imageFailListener),
+					new Elmen("div").withClasses("partial-overlay").withChildren(
+						new Elmen("div").withClasses("portfolio-item-meta").withChildren(
+							new Elmen("h5").withChildren(image.description)
+						)
+					)
 				)
 			)
 		);
@@ -139,11 +144,37 @@ processGallery: {
 	
 	// Create event listener that populates the page with all gallery sections
 	document.addEventListener("DOMContentLoaded", () => {
+		// Obtain sections of document to add elements to
 		let gallerySection = document.getElementById("gallery");
+		let navBar = document.getElementById("nav");
+		const MAX_YEAR_COUNT = 6
 		if (gallerySection) {
+			let yearCount = 0;
 			for (var years in gridItems) {
+				// Add link to nav bar automatically (maximum of 7 allowed)
+				if (navBar) {
+					// Add year to nav bar as normal
+					if (yearCount < MAX_YEAR_COUNT) {
+						navBar.appendChild(
+							new Elmen("li").withChildren(
+								new Elmen("a").withClasses("smoothscroll").withAttributes({href: `#${years}`}).withChildren(years)
+							).done()
+						);
+					} else if (yearCount === MAX_YEAR_COUNT) {
+						// Too many years!  Just add a link named "older"
+						navBar.appendChild(
+							new Elmen("li").withChildren(
+								new Elmen("a").withClasses("smoothscroll").withAttributes({href: `#${years}`}).withChildren("Older")
+							).done()
+						);
+					}
+				}
+				yearCount += 1;
+				
+				// Add section for the given year
 				gallerySection.appendChild(
 					new Elmen("section").withClasses("galleryyear").withAttributes({id: years}).withChildren(
+						// Add title displaying the year
 						new Elmen("div").withClasses("row", "section-head").withChildren(
 							new Elmen("div").withClasses("twelve", "columns").withChildren(
 								new Elmen("br"),
@@ -154,6 +185,7 @@ processGallery: {
 								new Elmen("hr")
 							)
 						),
+						// Add the images
 						new Elmen("div").withClasses("row", "items").withChildren(
 							new Elmen("div").withClasses("bgrid-fourth", "s-bgrid-third", "tab-bgrid-half").withAttributes({id: "portfolio-wrapper"}).withChildren(
 								...gridItems[years]
@@ -166,20 +198,19 @@ processGallery: {
 		
 		
 		// from main.js:
-		/*
-		$('.item-wrap a').magnificPopup({
+		$('.smoothscroll').on('click', function (e) {
 
-			 type:'inline',
-			 fixedContentPos: false,
-			 removalDelay: 300,
-			 showCloseBtn: false,
-			 mainClass: 'mfp-fade'
+			e.preventDefault();
 
-		});*/
-		/*
-		$(document).on('click', '.popup-modal-dismiss', function (e) {
-				e.preventDefault();
-				$.magnificPopup.close();
-		});*/
+		var target = this.hash,
+			$target = $(target);
+
+			$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		  }, 800, 'swing', function () {
+			window.location.hash = target;
+		  });
+
+		});
 	}, {passive: true, once: true, capture: false});
 }
