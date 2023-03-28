@@ -3,10 +3,16 @@ const galleryData = {
 		{"URL": "images/gallery/2022-2023/alchemynight.jpg", "description": "Alchemy Night"},
 		{"URL": "images/gallery/2022-2023/applepicking2022-small.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2022-2023/hogshalloweenparty2022.jpg", "description": "Halloween Party"},
+		{"URL": "images/gallery/2022-2023/maker-fair-2022.JPG", "description": "Maker Faire"},
+		{"URL": "images/gallery/2022-2023/maker-fair-piano2022.jpg", "description": "Larger Than Life Piano (Maker Faire)"}
 	],
 	"2021-2022": [
 		{"URL": "images/gallery/2021-2022/familydinner2022.jpg", "description": "Family Dinner"},
-		{"URL": "images/gallery/2021-2022/letchworth2021-small.jpg", "description": "Letchworth"}
+		{"URL": "images/gallery/2021-2022/letchworth2021-small.jpg", "description": "Letchworth"},
+		{"URL": "images/gallery/2021-2022/maker-fair-piano2021.jpg", "description": "Larger Than Life Piano (Maker Faire)"},
+		{"URL": "images/gallery/2021-2022/maker-fair-sparky2021.jpg", "description": "Larger Than Life Piano (Maker Faire)"},
+		{"URL": "images/gallery/2021-2022/imagine-piano-2022.jpg", "description": "Larger Than Life Piano (Imagine RIT)"},
+		{"URL": "images/gallery/2021-2022/imagine-weather-machine-2022.jpg", "description": "Weather Machine (Imagine RIT)"}
 	],
 	"2020-2021": [
 		{"URL": "images/gallery/2020-2021/square2.jpg", "description": "Four Square 1"},
@@ -32,7 +38,8 @@ const galleryData = {
 		{"URL": "images/gallery/2019-2020/social1.jpg", "description": "Social Lounge"},
 		{"URL": "images/gallery/2019-2020/square1.jpg", "description": "Four-Square"},
 		{"URL": "images/gallery/2019-2020/table1.jpg", "description": "Tabling in COS"},
-		{"URL": "images/gallery/2019-2020/truth.jpg", "description": "The Staffs of Truth"}
+		{"URL": "images/gallery/2019-2020/truth.jpg", "description": "The Staffs of Truth"},
+		{"URL": "images/gallery/2019-2020/warlock.jpg", "description": "Warlock of Imagine RIT"}
 	],
 	"2018-2019": [],
 	"2017-2018": [ 
