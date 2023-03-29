@@ -45,10 +45,17 @@ const galleryData = {
 	"2017-2018": [ 
 		{"URL": "images/gallery/2017-2018/applepicking20171.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2017-2018/applepicking20172.jpg", "description": "Apple Picking 2"},
+		{"URL": "images/gallery/2017-2018/chinese.jpg", "description": "Dinner"},
+		{"URL": "images/gallery/2017-2018/deepthink.JPG", "description": "Deep Thoughts"},
 		{"URL": "images/gallery/2017-2018/dodgeball1.png", "description": "Dodgeball 1"},
 		{"URL": "images/gallery/2017-2018/dodgeball2.JPG", "description": "Dodgeball 2"},
 		{"URL": "images/gallery/2017-2018/dodgeball3.png", "description": "Dodgeball 3"},
+		{"URL": "images/gallery/2017-2018/guitarhero2018.JPG", "description": "Guitar Hero"},
+		{"URL": "images/gallery/2017-2018/habitat20171.jpg", "description": "Habitat"},
+		{"URL": "images/gallery/2017-2018/habitat20172.jpg", "description": "Habitat 2"},
+		{"URL": "images/gallery/2017-2018/habitat20173.jpg", "description": "Habitat 3"},
 		{"URL": "images/gallery/2017-2018/hauntedtrail2017.JPG", "description": "Haunted Trail"},
+		{"URL": "images/gallery/2017-2018/hockey2017.jpg", "description": "Hockey"},
 		{"URL": "images/gallery/2017-2018/hogshalloweenparty2017.jpg", "description": "Halloween Party"},
 		{"URL": "images/gallery/2017-2018/imagine20181.JPG", "description": "Imagine RIT 1"},
 		{"URL": "images/gallery/2017-2018/imagine20182.jpg", "description": "Imagine RIT 2"},
@@ -59,15 +66,17 @@ const galleryData = {
 		{"URL": "images/gallery/2017-2018/imagine20187.PNG", "description": "Imagine RIT 7"},
 		{"URL": "images/gallery/2017-2018/letchworth20171.JPG", "description": "Letchworth"},
 		{"URL": "images/gallery/2017-2018/letchworth20172.JPG", "description": "Letchworth 2"},
+		{"URL": "images/gallery/2017-2018/lounge.jpg", "description": "Social Lounge"},
 		{"URL": "images/gallery/2017-2018/mudtug20171.JPG", "description": "Mud Tug"},
 		{"URL": "images/gallery/2017-2018/mudtug20172.JPG", "description": "Mud Tug 2"},
 		{"URL": "images/gallery/2017-2018/mudtug20173.JPG", "description": "Mud Tug 3"},
+		{"URL": "images/gallery/2017-2018/patch2018.JPG", "description": "Computer Building With Patch"},
 		{"URL": "images/gallery/2017-2018/pumpkinpicking20171.JPG", "description": "Pumpkin Picking"},
 		{"URL": "images/gallery/2017-2018/rock20171.JPG", "description": "Rock Painting"},
+		{"URL": "images/gallery/2017-2018/social.jpg", "description": "Social Lounge 2"},
 		{"URL": "images/gallery/2017-2018/warpigschar20171.JPG", "description": "War Pigs"}
 	],
 	"2016-2017": [
-		{"URL": "images/gallery/2016-2017/4square.JPG", "description": "Four Square"},
 		{"URL": "images/gallery/2016-2017/4square.JPG", "description": "Four Square"},
 		{"URL": "images/gallery/2016-2017/bonfire1.JPG", "description": "Bonfire with Art House"},
 		{"URL": "images/gallery/2016-2017/bonfire2.JPG", "description": "Bonfire with Art House 2"},
@@ -75,6 +84,7 @@ const galleryData = {
 		{"URL": "images/gallery/2016-2017/brick2.JPG", "description": "Brick Painting 2"},
 		{"URL": "images/gallery/2016-2017/chair1.JPG", "description": "Chairity"},
 		{"URL": "images/gallery/2016-2017/chair2.JPG", "description": "Chairity 2"},
+		{"URL": "images/gallery/2016-2017/dab.jpg", "description": "Open House"},
 		{"URL": "images/gallery/2016-2017/doorpaint.JPG", "description": "Door Painting"},
 		{"URL": "images/gallery/2016-2017/forest.JPG", "description": "Forest"},
 		{"URL": "images/gallery/2016-2017/gokart.JPG", "description": "Go Kart"},
@@ -98,7 +108,6 @@ const galleryData = {
 		{"URL": "images/gallery/2016-2017/techl.JPG", "description": "Tech Lounge"},
 		{"URL": "images/gallery/2016-2017/zephyr.JPG", "description": "Zephyr"},
 		{"URL": "images/gallery/2016-2017/zephyr2.jpg", "description": "Zephyr 2"},
-		{"URL": "images/gallery/2016-2017/dab.jpg", "description": "Open House"},
 		{"URL": "images/gallery/2016-2017/foursquare20171.JPG", "description": "Four Square"},
 		{"URL": "images/gallery/2016-2017/foursquare20172.JPG", "description": "Four Square 2"},
 		{"URL": "images/gallery/2016-2017/foursquare20173.JPG", "description": "Four Square 3"},
@@ -114,6 +123,33 @@ const galleryData = {
 		{"URL": "images/gallery/2016-2017/warpigs1.JPG", "description": "War Pigs"},
 		{"URL": "images/gallery/2016-2017/warpigs2.JPG", "description": "War Pigs 2"},
 		{"URL": "images/gallery/2016-2017/warpigs3.JPG", "description": "War Pigs 3"},
+		{"URL": "images/gallery/2016-2017/pizza1.jpg", "description": "Pizza"},
+		{"URL": "images/gallery/2016-2017/pizza2.JPG", "description": "Pizza 2"}
+	],
+	"2015-2016": [
+		{"URL": "images/gallery/2015-2016/snow2.jpg", "description": "Snow"},
+		{"URL": "images/gallery/2015-2016/scienceMuseum1.jpg", "description": "Science Museum"},
+		{"URL": "images/gallery/2015-2016/lunch1.jpg", "description": "Lunch"},
+		{"URL": "images/gallery/2015-2016/lunch2.jpg", "description": "Lunch 2"},
+		{"URL": "images/gallery/2015-2016/letchworth1.jpg", "description": "Letchworth"},
+		{"URL": "images/gallery/2015-2016/HVZ1.jpg", "description": "Humans vs Zombies"},
+		{"URL": "images/gallery/2015-2016/fourSquare1.jpg", "description": "Four Square"},
+		{"URL": "images/gallery/2015-2016/fourSquare1.jpg", "description": "Four Square 2"},
+		{"URL": "images/gallery/2015-2016/dodgeball1.jpg", "description": "Dodgeball"},
+		{"URL": "images/gallery/2015-2016/chairity1.jpg", "description": "Chairity"},
+		{"URL": "images/gallery/2015-2016/beach1.jpg", "description": "Beach 1"},
+		{"URL": "images/gallery/2015-2016/beach3.jpg", "description": "Beach 2"},
+		{"URL": "images/gallery/2015-2016/beach5.jpg", "description": "Beach 3"}
+	],
+	"2014-2015": [
+		{"URL": "images/gallery/2014-2015/darienLake1.jpg", "description": "Darien Lake"},
+		{"URL": "images/gallery/2014-2015/darienLake2.jpg", "description": "Darien Lake 2"},
+		{"URL": "images/gallery/2014-2015/greenhouse1.jpg", "description": "Greenhouse"},
+		{"URL": "images/gallery/2014-2015/improv1.jpg", "description": "Improv Night"},
+		{"URL": "images/gallery/2014-2015/warpigs1.jpg", "description": "War Pigs"}
+	],
+	"2013-2014": [
+		{"URL": "images/gallery/2013-2014/snow1.jpg", "description": "Snow"}
 	]
 }
 
