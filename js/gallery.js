@@ -1,3 +1,12 @@
+/* This script populates the gallery page with a photos, sorted by year.
+ * Edit the galleryData object below to add more years/images.
+ *
+ * Author: Will Ebmeyer - 2023
+ */
+// This controls how many years are shown on the nav bar before it just gets marked as "older"
+// Note: this does not effect the section headers, just the nav bar
+const MAX_NAV_YEAR_COUNT = 7
+// Declare where gallery stuff goes
 const galleryData = {
 	"2022-2023": [
 		{"URL": "images/gallery/2022-2023/alchemynight.jpg", "description": "Alchemy Night"},
@@ -20,6 +29,7 @@ const galleryData = {
 	],
 	"2019-2020": [
 		{"URL": "images/gallery/2019-2020/ducttape.JPG", "description": "Duct Taping the RA for Charity"},
+		{"URL": "images/gallery/2019-2020/dwayne_the_rock.jpg", "description": "Dwayne the Rock"},
 		{"URL": "images/gallery/2019-2020/garden1.JPG", "description": "Community Garden"},
 		{"URL": "images/gallery/2019-2020/gh1.JPG", "description": "Guitar Hero 1"},
 		{"URL": "images/gallery/2019-2020/gh2.JPG", "description": "Guitar Hero 2"},
@@ -124,7 +134,8 @@ const galleryData = {
 		{"URL": "images/gallery/2016-2017/warpigs2.JPG", "description": "War Pigs 2"},
 		{"URL": "images/gallery/2016-2017/warpigs3.JPG", "description": "War Pigs 3"},
 		{"URL": "images/gallery/2016-2017/pizza1.jpg", "description": "Pizza"},
-		{"URL": "images/gallery/2016-2017/pizza2.JPG", "description": "Pizza 2"}
+		{"URL": "images/gallery/2016-2017/pizza2.JPG", "description": "Pizza 2"},
+		{"URL": "images/gallery/2016-2017/shieldhat.jpg", "description": "Pizza 2"}
 	],
 	"2015-2016": [
 		{"URL": "images/gallery/2015-2016/snow2.jpg", "description": "Snow"},
@@ -190,20 +201,19 @@ processGallery: {
 		// Obtain sections of document to add elements to
 		let gallerySection = document.getElementById("gallery");
 		let navBar = document.getElementById("nav");
-		const MAX_YEAR_COUNT = 6
 		if (gallerySection) {
 			let yearCount = 0;
 			for (var years in gridItems) {
 				// Add link to nav bar automatically (maximum of 7 allowed)
 				if (navBar) {
 					// Add year to nav bar as normal
-					if (yearCount < MAX_YEAR_COUNT) {
+					if (yearCount < MAX_NAV_YEAR_COUNT) {
 						navBar.appendChild(
 							new Elmen("li").withChildren(
 								new Elmen("a").withClasses("smoothscroll").withAttributes({href: `#${years}`}).withChildren(years)
 							).done()
 						);
-					} else if (yearCount === MAX_YEAR_COUNT) {
+					} else if (yearCount === MAX_NAV_YEAR_COUNT) {
 						// Too many years!  Just add a link named "older"
 						navBar.appendChild(
 							new Elmen("li").withChildren(
