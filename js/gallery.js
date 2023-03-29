@@ -12,20 +12,37 @@ const galleryData = {
 		{"URL": "images/gallery/2022-2023/alchemynight.jpg", "description": "Alchemy Night"},
 		{"URL": "images/gallery/2022-2023/applepicking2022-small.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2022-2023/hogshalloweenparty2022.jpg", "description": "Halloween Party"},
-		{"URL": "images/gallery/2022-2023/maker-fair-2022.JPG", "description": "Maker Faire"},
-		{"URL": "images/gallery/2022-2023/maker-fair-piano2022.jpg", "description": "Larger Than Life Piano (Maker Faire)"}
+		{"URL": "images/gallery/2022-2023/gingerbread-building-2022.jpg", "description": "Gingerbread House Building"},
+		{"URL": "images/gallery/2022-2023/hogshalloweenparty2022.jpg", "description": "Halloween Party"},
+		{"URL": "images/gallery/2022-2023/transformers-lore-2022.jpg", "description": "Transformers Lore"},
+		{"URL": "images/gallery/2022-2023/maker-fair-2022.JPG", "description": "Maker Faire 2022"},
+		{"URL": "images/gallery/2022-2023/maker-fair-piano2022.jpg", "description": "Larger Than Life Piano (Maker Faire)"},
+		{"URL": "images/gallery/2022-2023/first-floor-meeting-2022.jpg", "description": "First Floor Meeting"}
 	],
 	"2021-2022": [
+		{"URL": "images/gallery/2021-2022/inter-sih-rock-painting-2022.jpg", "description": "E-House Counter Attack"},
 		{"URL": "images/gallery/2021-2022/familydinner2022.jpg", "description": "Family Dinner"},
 		{"URL": "images/gallery/2021-2022/letchworth2021-small.jpg", "description": "Letchworth"},
 		{"URL": "images/gallery/2021-2022/maker-fair-piano2021.jpg", "description": "Larger Than Life Piano (Maker Faire)"},
 		{"URL": "images/gallery/2021-2022/maker-fair-sparky2021.jpg", "description": "Larger Than Life Piano (Maker Faire)"},
+		{"URL": "images/gallery/2021-2022/maker-fair-2021.jpg", "description": "Maker Faire 2021"},
 		{"URL": "images/gallery/2021-2022/imagine-piano-2022.jpg", "description": "Larger Than Life Piano (Imagine RIT)"},
-		{"URL": "images/gallery/2021-2022/imagine-weather-machine-2022.jpg", "description": "Weather Machine (Imagine RIT)"}
+		{"URL": "images/gallery/2021-2022/imagine-weather-machine-2022.jpg", "description": "Weather Machine (Imagine RIT)"},
+		{"URL": "images/gallery/2021-2022/halloween-2021-1.jpg", "description": "Halloween 1"},
+		{"URL": "images/gallery/2021-2022/halloween-2021-2.jpg", "description": "Halloween 2"},
+		{"URL": "images/gallery/2021-2022/pumpkin-carving-2021.jpg", "description": "Pumpkin Carving"},
+		{"URL": "images/gallery/2021-2022/hell-2021.jpg", "description": "HoGS Experimental Learning Lounge"},
+		{"URL": "images/gallery/2021-2022/counterstrike-2021.jpg", "description": "E-House Counter Attack"},
+		{"URL": "images/gallery/2021-2022/imagine-that.jpg", "description": "I WANT YOU FOR IMAGINE RIT"},
+		{"URL": "images/gallery/2021-2022/amogus.jpg", "description": "amogus"},
+		{"URL": "images/gallery/2021-2022/apple-picking-2021.jpg", "description": "Apple Picking"},
+		{"URL": "images/gallery/2021-2022/christmas-party-2021.jpg", "description": "Christmas Party"},
+		{"URL": "images/gallery/2021-2022/santa-joe-2021.jpg", "description": "Lumberjack Santa"}
 	],
 	"2020-2021": [
-		{"URL": "images/gallery/2020-2021/square2.jpg", "description": "Four Square 1"},
-		{"URL": "images/gallery/2020-2021/square3.jpg", "description": "Four Square 2"}
+		{"URL": "images/gallery/2020-2021/square2.jpg", "description": "Four Square"},
+		{"URL": "images/gallery/2020-2021/square3.jpg", "description": "Four Square 2"},
+		{"URL": "images/gallery/2020-2021/paper-plane.jpg", "description": "Paper Caplan Thruster"}
 	],
 	"2019-2020": [
 		{"URL": "images/gallery/2019-2020/ducttape.JPG", "description": "Duct Taping the RA for Charity"},
@@ -77,7 +94,7 @@ const galleryData = {
 		{"URL": "images/gallery/2017-2018/letchworth20171.JPG", "description": "Letchworth"},
 		{"URL": "images/gallery/2017-2018/letchworth20172.JPG", "description": "Letchworth 2"},
 		{"URL": "images/gallery/2017-2018/lounge.jpg", "description": "Social Lounge"},
-		{"URL": "images/gallery/2017-2018/mudtug20171.JPG", "description": "Mud Tug"},
+		{"URL": "images/gallery/2017-2018/mudtug20171.jpg", "description": "Mud Tug"},
 		{"URL": "images/gallery/2017-2018/mudtug20172.JPG", "description": "Mud Tug 2"},
 		{"URL": "images/gallery/2017-2018/mudtug20173.JPG", "description": "Mud Tug 3"},
 		{"URL": "images/gallery/2017-2018/patch2018.JPG", "description": "Computer Building With Patch"},
