@@ -13,7 +13,6 @@ const galleryData = {
 		{"URL": "images/gallery/2022-2023/applepicking2022-small.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2022-2023/hogshalloweenparty2022.jpg", "description": "Halloween Party"},
 		{"URL": "images/gallery/2022-2023/gingerbread-building-2022.jpg", "description": "Gingerbread House Building"},
-		{"URL": "images/gallery/2022-2023/hogshalloweenparty2022.jpg", "description": "Halloween Party"},
 		{"URL": "images/gallery/2022-2023/transformers-lore-2022.jpg", "description": "Transformers Lore"},
 		{"URL": "images/gallery/2022-2023/maker-fair-2022.JPG", "description": "Maker Faire 2022"},
 		{"URL": "images/gallery/2022-2023/maker-fair-piano2022.jpg", "description": "Larger Than Life Piano (Maker Faire)"},
@@ -37,7 +36,9 @@ const galleryData = {
 		{"URL": "images/gallery/2021-2022/amogus.jpg", "description": "amogus"},
 		{"URL": "images/gallery/2021-2022/apple-picking-2021.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2021-2022/christmas-party-2021.jpg", "description": "Christmas Party"},
-		{"URL": "images/gallery/2021-2022/santa-joe-2021.jpg", "description": "Lumberjack Santa"}
+		{"URL": "images/gallery/2021-2022/santa-joe-2021.jpg", "description": "Lumberjack Santa"},
+		{"URL": "images/gallery/2021-2022/war-room-2021.jpg", "description": "War Room"},
+		{"URL": "images/gallery/2021-2022/electricity-2021.jpg", "description": "Sparky"}
 	],
 	"2020-2021": [
 		{"URL": "images/gallery/2020-2021/square2.jpg", "description": "Four Square"},
