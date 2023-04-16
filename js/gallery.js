@@ -9,6 +9,7 @@ const MAX_NAV_YEAR_COUNT = 7
 // Declare where gallery stuff goes
 const galleryData = {
 	"2022-2023": [
+		{"URL": "images/gallery/2022-2023/letchworth-2023.jpg", "description": "Letchworth"},
 		{"URL": "images/gallery/2022-2023/alchemynight.jpg", "description": "Alchemy Night"},
 		{"URL": "images/gallery/2022-2023/applepicking2022-small.jpg", "description": "Apple Picking"},
 		{"URL": "images/gallery/2022-2023/hogshalloweenparty2022.jpg", "description": "Halloween Party"},
@@ -32,6 +33,7 @@ const galleryData = {
 		{"URL": "images/gallery/2021-2022/pumpkin-carving-2021.jpg", "description": "Pumpkin Carving"},
 		{"URL": "images/gallery/2021-2022/hell-2021.jpg", "description": "HoGS Experimental Learning Lounge"},
 		{"URL": "images/gallery/2021-2022/counterstrike-2021.jpg", "description": "E-House Counter Attack"},
+		{"URL": "images/gallery/2021-2022/counterstrike-2021-2.jpg", "description": "E-House Counter Attack 2"},
 		{"URL": "images/gallery/2021-2022/imagine-that.jpg", "description": "I WANT YOU FOR IMAGINE RIT"},
 		{"URL": "images/gallery/2021-2022/amogus.jpg", "description": "amogus"},
 		{"URL": "images/gallery/2021-2022/apple-picking-2021.jpg", "description": "Apple Picking"},
